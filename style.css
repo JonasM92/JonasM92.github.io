@@ -1,12 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
 
-body{background: blue;}
+body{background:radial-gradient(blue, deepskyblue);}
 
 h1{
     color:darkred;
     /*background:yellowgreen;*/
-    background-color: hsla(45, 100%, 50%, 0.5);
+    /*background-color: hsla(45, 100%, 50%, 0.5);*/
+    background:linear-gradient(hsla(45, 100%, 50%, 0.8),hsla(90, 100%, 50%, 0.8));
     font-family: 'La Belle Aurore';
+    border: dashed;
     }
 p::first-letter {
     font-style:oblique;
@@ -17,6 +19,7 @@ p::first-letter {
 p{
     color:cyan;
     text-align:center;
+    border:double;
 }
 
 
