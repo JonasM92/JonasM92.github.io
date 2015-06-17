@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
+
+body{background: blue;}
+
+h1{
+    color:darkred;
+    /*background:yellowgreen;*/
+    background-color: hsla(45, 100%, 50%, 0.5);
+    font-family: 'La Belle Aurore';
+    }
+p::first-letter {
+    font-style:oblique;
+    font-size:4em;
+    color:black;
+}
+
+p{
+    color:cyan;
+    text-align:center;
+}
+
+
+
+address{color:#669900;}
+
+a:hover{color:red;}
+ul{color:#F3C405;}
+
+tr:nth-child(even) {background: red;}
+tr:nth-child(uneven) {background: greenyellow;}
+
+tr:nth-child(3) td:nth-child(1) {color:goldenrod}
+
+th {color:cadetblue}
+
+th:nth-child(1) {background:white;}
+th:nth-child(2) {background:orange;}
+
+table{
+    border:groove;
+    border-color:cyan;
+    background-image:url("bg.jpg");
+    background-size:100% 100%;
+}
+td{border: inset;}
+th{border: outset;}
+
