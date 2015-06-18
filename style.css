@@ -1,6 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
 
-body{background:radial-gradient(blue, deepskyblue);}
+body{
+    background:radial-gradient(deepskyblue, blue);
+
+    padding-left: 20%;
+    padding-right: 20%;
+    border-left: solid;
+    border-right: solid;
+    border:ThreeDShadow;
+    border-color: #669900;
+
+    transition:transform 5s ease;
+}
+
+/*body:hover {*/
+    /*transform:skew(30deg);*/
+/*}*/
+
+svg{
+    transition:transform 5s ease;
+}
+
+svg:hover{
+    /*transform:rotateX(45deg) rotateY(-45deg) rotateZ(45deg);*/
+    /*-webkit-transform:rotateX(45deg) rotateY(-45deg) rotateZ(45deg);*/
+    transform:scale3D(2,3,4);
+}
 
 h1{
     color:darkred;
@@ -9,7 +34,13 @@ h1{
     background:linear-gradient(hsla(45, 100%, 50%, 0.8),hsla(90, 100%, 50%, 0.8));
     font-family: 'La Belle Aurore';
     border: dashed;
+    box-shadow: 10px 10px 20px 20px aliceblue;
     }
+h3{
+    font-size:2em;
+    text-shadow:3px 3px 5px white;
+}
+
 p::first-letter {
     font-style:oblique;
     font-size:4em;
@@ -47,4 +78,14 @@ table{
 }
 td{border: inset;}
 th{border: outset;}
+
+.test:hover {
+    color:red;
+    padding-right: 1em;
+    background-image: url(bg.jpg);
+    background-position: right;
+    background-size:  15px 15px;
+    background-repeat: no-repeat;
+}
+
 
